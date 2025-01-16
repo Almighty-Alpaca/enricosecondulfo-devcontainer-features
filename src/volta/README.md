@@ -7,9 +7,7 @@ Installs Volta, the hassle-free JavaScript tool manager
 
 ```json
 "features": {
-    "ghcr.io/enricosecondulfo/devcontainer-features/volta:1": {
-        "version": "latest"
-    }
+    "ghcr.io/Almighty-Alpaca/enricosecondulfo-devcontainer-features/volta:1": {}
 }
 ```
 
@@ -23,4 +21,4 @@ Installs Volta, the hassle-free JavaScript tool manager
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/enricosecondulfo/devcontainer-features/blob/main/src/volta/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/Almighty-Alpaca/enricosecondulfo-devcontainer-features/blob/main/src/volta/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
