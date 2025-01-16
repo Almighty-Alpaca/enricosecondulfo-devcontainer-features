@@ -27,3 +27,6 @@ fi
 
 mkdir -p /opt/volta/bin
 curl -L "${VOLTA_URL}" | tar zx -C /opt/volta/bin
+
+echo "export VOLTA_HOME=\"${HOME}/.volta\"" >> /etc/profile.d/50-volta.sh
+echo "export PATH=\"/opt/volta/bin/:\$VOLTA_HOME/bin:\$PATH\"" >> /etc/profile.d/50-volta.sh
