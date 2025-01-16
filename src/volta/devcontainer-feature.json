@@ -12,5 +12,9 @@
             "default": "latest",
             "description": "Select or enter a version."
         }
+    },
+    "containerEnv": {
+        "VOLTA_HOME": "~/.volta",
+        "PATH": "/opt/volta/bin/:$VOLTA_HOME/bin:$PATH"
     }
 }
